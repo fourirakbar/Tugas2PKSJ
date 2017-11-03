@@ -107,7 +107,7 @@ adalah tools vulnerability scanner untuk CMS Wordpress yang ditulis dengan mengg
     <br>
     * Setelah itu klik upload plugin > choose file > lalu pilih file plugin yang sudah Anda download.
 
-    ![19](/img/19.png)
+    ![19](/img/19.PNG)
     <br>
     * Terkadang ada beberapa error seperti pada gambar dibawah.
 
@@ -127,14 +127,13 @@ adalah tools vulnerability scanner untuk CMS Wordpress yang ditulis dengan mengg
     <br>
     * Filesize sudah di ubah, terkadang ada error lagi seperti pada gambar dibawah.
     
-    ![24](/img/24.png)
+    ![24](/img/24.PNG)
     <br>
-
     * Jika terjadi seperti pada gambar diatas, maka buka kembali ubuntu server Anda, lalu ganti akses ke direktori wordpress di server Anda.
 
     ![25](/img/25.png)
     <br>
     * Coba kembali install plugin tersebut, jika sukses maka akan muncul seperti pada gambar dibawah.
 
-    ![27](/img/27.png)
+    ![27](/img/27.PNG)
     <br>

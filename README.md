@@ -177,3 +177,48 @@ adalah web scanner Open Source, yang melakukan tes komprehensif terhadap web ser
 
     ![33](/img/33.PNG)
     <br>
+
+* ## Langkah Instalasi dan Penggunaan WPScan
+
+    * Apabila belum memiliki git, install terlebih dahulu dengan perintah dibawah ini:
+        ```
+        $ sudo apt-get install git
+        ```
+
+    * Install dependensi sebelum menginstall wpscan
+        ```
+        $ sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential
+        ```
+
+    * Sekarang, download folder WPScan yang diambil dari Github. Setelah clone, pindah ke folder WPScan.
+        ```
+        $ git clone https://github.com/wpscanteam/wpscan.git
+
+        $ cd wpscan
+        ```
+
+    * Install WPScan dengan cara ketikkan command dibawah ini
+        ```
+        $ sudo gem install bundler && bundle install --without test 
+        ```
+
+    * Untuk menjalankannya, jalankan dengan ruby. 
+        ```
+        $ ruby wpscan.rb
+        ```
+        Apabila instalasi berhasil, akan muncul tampilan seperti ini:
+        ![34](/img/wpscan-1.png)
+
+        <br>
+        
+     * Untuk melakukan SQL injection, jalankan command seperti berikut:
+        ```
+        ruby wpscan.rb -u www.example.com --enumerate vp
+        ```
+
+        Command diatas dapat dijalankan untuk mengetahui *vulnarability* (kerentanan) yang terdapat pada Wordpress tersebut. Tunggu beberapa menit sampai proses *scanning* selesai.
+
+        ![35](/img/wpscan-2.png)
+        ![36](/img/wpscan-3.png)
+        ![37](/img/wpscan-4.png)
+        ![38](/img/wpscan-5.png)

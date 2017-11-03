@@ -84,24 +84,24 @@ adalah web scanner Open Source, yang melakukan tes komprehensif terhadap web ser
     <br>
     * Lalu isikan informasi yang dibutuhkan.
 
-    ![13](/img/13.png)
+    ![13](/img/13.PNG)
     <br>
     * Setelah ada pemberitahuan sukses, klik Log In
 
-    ![14](/img/14.png)
+    ![14](/img/14.PNG)
     <br>
     * Lalu login dengan username dan password yang telah Anda buat.
 
-    ![15](/img/15.png)
+    ![15](/img/15.PNG)
     <br>
     * Jika Anda berhasil login, maka akan muncul halaman admin seperti pada gambar dibawah. Instalasi wordpress telah selesai.
 
-    ![16](/img/16.png)
+    ![16](/img/16.PNG)
     <br>
 
     * Setelah itu kita akan menginstall plugin Video Player. Pertama download dulu plugin tersebut dari web wordpress.
 
-    ![17](/img/17.png)
+    ![17](/img/17.PNG)
     <br>
     * Setelah selesai di download, klik plugin > add new.
 
@@ -113,7 +113,7 @@ adalah web scanner Open Source, yang melakukan tes komprehensif terhadap web ser
     <br>
     * Terkadang ada beberapa error seperti pada gambar dibawah.
 
-    ![20](/img/20.png)
+    ![20](/img/20.PNG)
     <br>
     * Jika terjadi seperti pada gambar diatas, maka buka kembali ubuntu server Anda, lalu edit file php.ini.
 

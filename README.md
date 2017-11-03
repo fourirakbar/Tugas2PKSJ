@@ -22,8 +22,10 @@ adalah plugin Wordpress yang digunakan untuk menampilkan hasil dari pertandingan
 adalah sebuah tools opensource yang mendeteksi dan melakukan exploit pada bug SQL injection secara otomatis, dengan melakukan serangan SQL injection, seorang attacker dapat mengambil alih serta memanipulasi sebuah database di dalam sebuah server.
 ##### * Wpscan
 adalah tools vulnerability scanner untuk CMS Wordpress yang ditulis dengan menggunakan bahasa pemrograman ruby. Wpscan mampu mendeteksi kerentanan umum serta daftar semua plugin dan themes yang digunakan oleh sebuah website yang menggunakan CMS Wordpress.
+##### * Nikto
+adalah web scanner Open Source, yang melakukan tes komprehensif terhadap web server. Nikto memiliki kemampuan mendeteksi 3500 file yang berpotensi mendatangkan bahaya / CHIS dna juga nikto mampu untuk menguji sebuah web server dengan cepat dan mudah dilihat pada log.
 
-# Uji Penetrasi 2
+# Tugas 2
 ### Tugas:
 * Instal Wordpress pada sebuah virtual OS
 * Install plugin yang vulnerable terhadap SQL injection
@@ -136,4 +138,42 @@ adalah tools vulnerability scanner untuk CMS Wordpress yang ditulis dengan mengg
     * Coba kembali install plugin tersebut, jika sukses maka akan muncul seperti pada gambar dibawah.
 
     ![27](/img/27.PNG)
+    <br>
+    * Setelah sukses menginstall plugin video player, install plugin League Manager
+    
+    ![29](/img/29.PNG)
+    <br>
+    * Jika sukses maka akan muncul seperti pada gambar dibawah.
+
+    ![30](/img/30.PNG)
+    <br>
+
+* ## Langkah Instalasi dan penggunaan SQLMap
+    
+    * Clone sqlmap dari git.
+
+    ![34](/img/34.PNG)
+    <br>
+    * Lalu masuk ke direktori sqlmap, dan ketikkan "python sqlmap.py -u 'http://[ip_target]/?match=1' --level 5 --risk 2 --dbms mysql
+
+    ![35](/img/35.PNG)
+    <br>
+    * Setelah itu akan ada pilihan "sqlmap got a 302 redirect to 'http://10.151.36.38/dashboard/', Do you want to follow?", pilih Y, dan biarkan proses berhalan hingga selesai
+
+    ![36](/img/36.PNG)
+    <br>
+    
+* ## Langkah Instalasi dan penggunaan Nikto
+
+    * Install nikto dengan mengetikkan sudo apt-get install nikto
+
+    ![31](/img/31.PNG)
+    <br>
+    * Setelah selesai proses instalasi, update nikto ke versi terbaru
+
+    ![32](/img/32.PNG)
+    <br>
+    * Setelah itu, jalankan nikto dengan command "nikto -h [ip_target\]
+
+    ![33](/img/33.PNG)
     <br>
